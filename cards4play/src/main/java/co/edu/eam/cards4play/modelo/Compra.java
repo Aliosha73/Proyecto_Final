@@ -33,7 +33,7 @@ public class Compra {
         for (Producto p : productos) {
             suma += p.getPrecioCop();
         }
-        return suma;
+        return suma; 
     }
 
     public String getId() { return id; }
